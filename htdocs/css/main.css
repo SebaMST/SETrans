@@ -1,0 +1,321 @@
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: rgba(6, 57, 70, 0.8);
+}
+
+#aboutus {
+  height: auto;
+  background: url(../img/aboutus.jpg) no-repeat center center fixed;
+  background-size: cover;
+  padding-bottom: 5rem;
+}
+
+#intro, header {
+  height: auto;
+  min-height: 100%;
+  background: url(../img/intro.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+#ourservices {
+  height: auto;
+  background: url(../img/ourservices.jpg) no-repeat center center fixed;
+  background-size: cover;
+  padding-bottom: 5rem;
+}
+
+#contact {
+  height: auto;
+  background: url(../img/contact.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+#map .mapouter {
+  height: 525px;
+  width: 1080px
+}
+
+#contactmessage {
+  margin-top: 4rem;
+}
+
+html,
+body,
+#vehicles {
+  height: 100%;
+}
+
+@media (max-width: 575.98px) {
+  #intro2 {
+    height: 45%;
+    background: url(../img/landing.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #intro2 {
+    height: 35%;
+    background: url(../img/landing.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #intro2 {
+    height: 20%;
+    background: url(../img/landing.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+
+.active {
+  background-color: rgba(50, 150, 130, 0.35);
+}
+
+.nav-link {
+  padding-top: 3px;
+  padding-bottom: 5px;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar {
+  font-size: 1.374rem;
+}
+
+[aria-expanded="false"]+.navbar-collapse.collapsing,
+[aria-expanded="true"]+.navbar-collapse.collapsing,
+[aria-expanded="true"]+.navbar-collapse.collapse.show {
+  padding: 15px;
+}
+
+.nav-item {
+  border-radius: 7px;
+  margin-right: 5px;
+}
+
+.nav-item:hover
+{
+  background-color: rgba(255,255,255,0.3);
+}
+
+.navbar-dark .navbar-nav .nav-link, .drop-like-nav {
+  color: rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+}
+
+.dropdown-menu {
+  background: rgba(255, 255, 255, 0.7);
+  min-width: 17rem;
+}
+
+.formbutton {
+  margin-left: 15px;
+  margin-right: 0px;
+  width: 15rem;
+  text-align: center;
+}
+
+.landmessage {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 6px #000000;
+}
+
+.landmessage.left {
+  text-align: left;
+}
+
+.landmessage.right {
+  text-align: right;
+}
+
+.collapsed {
+  color: black;
+}
+
+hr.style-two {
+  border: 0;
+  height: 2px;
+  width: 60%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+
+#landbutton {
+  font-size: 2.5rem;
+  border-width: 0.2rem;
+  padding-bottom: 0.7rem;
+}
+
+button.navbar-toggler {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 3.5px;
+  padding-bottom: 3.5px;
+}
+
+#search.form-control {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#search.form-control::placeholder {
+  color: white;
+}
+
+nav .btn-outline-light {
+  border-color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#aboutuscontainer {
+  background: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 15px;
+  border-width: 0px;
+  font-size: 0.95rem;
+  padding-bottom: 5rem;
+}
+
+#ourservicescontainer {
+  background: rgba(137, 223, 244, 0.32);
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 15px;
+  border-width: 0px;
+  font-size: 0.95rem;
+  padding: 5rem 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.servicehr.style-two {
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+
+.row .col-md-7 h2 {
+  padding: 7px 5px;
+  background: rgba(0, 0, 0, 0.4);
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 15px;
+  border-width: 0px;
+}
+
+.aboutimg {
+  border: solid white 0px;
+  box-shadow: 3px 1.5px 5px rgba(255, 255, 255, 0.4);
+  margin-bottom: 2.5rem;
+}
+
+.boss {
+  padding: 0px 15px;
+}
+
+.bossbtn, .bossbtn.collapsed {
+  background-color: rgba(110, 150, 130, 0.35);
+  color: white;
+  margin-top: 4px;
+  margin-bottom: 5px;
+}
+
+p.boss
+{
+  margin-bottom: 0.4rem;
+}
+
+#aboutuscontainer .landmessage {
+  padding-top: 5rem;
+}
+
+#boss1read,
+#boss2read,
+#boss3read {
+  padding: 0px 15px;
+  margin: 0px 12px;
+}
+
+.col-lg-4 p {
+  text-indent: 25px;
+  text-align: justify;
+}
+
+#accountpanel .landmessage
+{
+ text-align: left;
+}
+
+#accountpanel
+{
+   padding-top: 2.5rem;
+  padding-bottom: 3rem;
+}
+
+.dataTables_length
+{
+  width: 180px;
+  text-align: left;
+}
+
+.dataTables_wrapper
+{
+  text-shadow: 2px 2px 6px #000000;
+}
+
+#bookingsTable
+{
+  border: solid 0px transparent;
+  border-radius: 7px;
+  font-size: 14px;
+}
+
+#bookingsTable th, #adminBookingsTable th, #adminMessagesTable th, #adminAccountsTable th
+{
+  border-top: solid 0px transparent;
+}
+
+#adminBookingsTable, #adminMessagesTable, #adminAccountsTable
+{
+  border: solid 0px transparent;
+  border-radius: 7px;
+}
+
+#adminBookingsTable, #adminMessagesTable
+{
+    font-size: 10px;
+}
+
+.dataTables_wrapper label select
+{
+  background-color: rgba(0,0,0,0.3) !important;
+}
+
+.dataTables_wrapper label select.custom-select, .dataTables_wrapper label input.form-control
+{
+  color: white;
+}
+
+.dataTables_wrapper label input
+{
+  background-color: rgba(0,0,0,0.3) !important;
+}
+
+.dataTables_wrapper .page-item.active .page-link
+{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.dataTables_wrapper form
+{
+  margin-bottom: 0em;
+}
+
+.dataTables_wrapper .dataTables_info
+{
+  text-align: left;
+}

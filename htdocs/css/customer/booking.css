@@ -1,0 +1,149 @@
+.section {
+	position: relative;
+	height: 60rem;
+}
+
+.section .section-center {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.booking-form {
+	max-width: 800px;
+	width: 100%;
+	margin: auto;
+}
+
+.booking-form .form-header {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.booking-form .form-header h1 {
+	font-size: 58px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: rgba(200, 200, 200, 0.85);
+	margin: 0px;
+}
+
+.booking-form>form {
+	background-color: rgba(0, 0, 0, 0.33);
+	padding: 30px 60px;
+	border-radius: 5px;
+}
+
+.booking-form .form-group {
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.booking-form .form-control {
+	background-color: #f5f5f5;
+	border: none;
+	height: 45px;
+	border-radius: 3px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	font-weight: 400;
+	color: black;
+}
+
+.booking-form .form-control::-webkit-input-placeholder {
+	color: rgba(16, 17, 19, 0.3);
+}
+
+.booking-form .form-control:-ms-input-placeholder {
+	color: rgba(16, 17, 19, 0.3);
+}
+
+.booking-form .form-control::placeholder {
+	color: rgba(16, 17, 19, 0.3);
+}
+
+.booking-form input[type="date"].form-control:invalid {
+	color: rgba(16, 17, 19, 0.3);
+}
+
+.booking-form select.form-control {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.booking-form select.form-control+.select-arrow {
+	position: absolute;
+	right: 0px;
+	bottom: 6px;
+	width: 32px;
+	line-height: 32px;
+	height: 32px;
+	text-align: center;
+	pointer-events: none;
+	color: #212529;
+	font-size: 14px;
+}
+
+.booking-form select.form-control+.select-arrow:after {
+	content: '\279C';
+	display: block;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.booking-form .form-label {
+	color: #fff;
+	font-size: 12px;
+	font-weight: 200;
+	margin-bottom: 5px;
+	display: block;
+	text-transform: uppercase;
+	font-family: Poppins-SemiBold;
+  text-shadow: 2px 2px 6px #000000;
+}
+
+.booking-form .form-check-label {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	display: block;
+	font-family: Poppins-SemiBold;
+	text-shadow: 2px 2px 6px #000000;
+	margin-top: 0.2rem;
+ }
+
+.booking-form .submit-btn {
+	color: #fff;
+	background-color: #2dc3a68c;
+	font-weight: 700;
+	height: 50px;
+	border: none;
+	width: 100%;
+	display: block;
+	border-radius: 7px;
+	text-transform: uppercase;
+  text-shadow: 2px 2px 6px #000000;
+}
+
+.booking-form .form-check .form-check-input
+{
+	margin-top: 0.3rem;
+}
+
+.booking-form .form-group textarea
+{
+	width: 90%;
+	border: 0px solid transparent;
+	border-radius: 3px;
+	background-color: #f5f5f5;
+}
+
+.booking-form .form-btn
+{
+	margin-top: 2rem;
+  margin-bottom: 1rem;
+}
